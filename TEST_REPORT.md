@@ -1,6 +1,12 @@
 # Verification status
 
-**Prepared source, not yet publicly published.** Project-authored code uses the MIT License.
+**Public source repository:** [Task Rooms for Dots](https://github.com/kaishu0414/task-rooms-for-dots).
+The repository and installation entry documents were confirmed publicly readable
+on 2026-10-25. This confirms public access to source, not installation in a new
+owner's account. The test results below were recorded during pre-publication
+preparation and retain their original scope and limitations.
+
+Project-authored code uses the MIT License.
 Each new owner must verify their own setup and devices before calling the
 installation complete. Results below are point-in-time checks, not a guarantee
 that the software is free of vulnerabilities.

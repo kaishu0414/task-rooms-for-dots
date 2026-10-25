@@ -10,10 +10,10 @@
 
 ```text
 このリポジトリの AGENT_SETUP.md を読み、実行前に安全確認して、私専用の非公開 Task Rooms for Dots を導入して。工程数・完了数・今の作業・待ち理由を途中で知らせ、導入後は私の端末でのアプリ追加を案内して。
-<PUBLIC_REPOSITORY_URL>
+https://github.com/kaishu0414/task-rooms-for-dots
 ```
 
-公開 GitHub URL はまだ未設定です。`<PUBLIC_REPOSITORY_URL>` を実際の URL に置き換えてください。[コピーする文だけを開く](COPYPASTE_INSTALL_PROMPT.md)。秘密鍵や個人情報は追記しません。
+上の一文と公開リポジトリの URL を、そのまま自分の dot に渡してください。[コピーする文だけを開く](COPYPASTE_INSTALL_PROMPT.md)。秘密鍵や個人情報は追記しません。
 
 あとは dot が [導入手順](AGENT_SETUP.md)を読み、安全確認から案内します。ログインや権限承認など、本人の操作が必要なところでは止まって説明します。使える機能にはアカウント差があり、貼り付けるだけでの導入完了は保証していません。
 
