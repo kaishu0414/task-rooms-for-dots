@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';
+const read=p=>readFileSync(new URL('../'+p,import.meta.url),'utf8');
+test('normal counts reserve unread badge space independently of unread value',()=>{const css=read('app/globals.css');assert(css.includes('.status-navigation button>small{margin-right:20px}'));assert(css.includes('.sidebar-footer button>span:not(.status-unread){margin-right:20px}'));});
+test('upload feedback counts only server-confirmed attachments, no optimistic saved state',()=>{const s=read('components/TaskRoom.tsx');assert(s.includes('画像を送信中 ${imageDrafts.items.filter(item=>item.attachment).length}/${imageDrafts.items.length}'));assert(s.indexOf('setSendFeedback("保存しました")')>s.indexOf('const attachmentIds=await imageDrafts.uploadAll(selected.id)'));});
