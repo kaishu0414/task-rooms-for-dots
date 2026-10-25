@@ -1,0 +1,750 @@
+{
+  "format": 1,
+  "artifact": "Task Rooms for Dots prepared source — onboarding v4",
+  "licenseStatus": "MIT project source; third-party notices apply",
+  "self": "FILE_MANIFEST.json",
+  "note": "This manifest lists every other distributed file. Its own bytes are verified by the enclosing archive hash, not a recursive self-hash.",
+  "fileCountIncludingManifest": 149,
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 408,
+      "sha256": "f6f8f40310bfc3b5d13d45b85088576f0e566315af54fcbf169082e35674fb02"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 239,
+      "sha256": "f28897026b76f324904ce2f58cc64d9bcc034f0ebccb8f7f5e2bd530209733e3"
+    },
+    {
+      "path": ".npmrc",
+      "bytes": 33,
+      "sha256": "b7d89ff237e7a6270861f9d71d3e4a9f4292ffdfe7540b59d158b11d47c7facf"
+    },
+    {
+      "path": ".openai/hosting.example.json",
+      "bytes": 57,
+      "sha256": "9808d7f164fc005b1ff9b329ae69b28f9f82c38c0ebb74ad7d1d73169fc01432"
+    },
+    {
+      "path": ".openai/hosting.mcp.example.json",
+      "bytes": 70,
+      "sha256": "9a82fdff312eecf0ba8bd2a23cd0961545cce99e206e1f9ce3f582b080b9303f"
+    },
+    {
+      "path": "AGENT_SETUP.md",
+      "bytes": 17327,
+      "sha256": "3d57db776d1ce7a6a0d9574cf330fb96f84bfa4a1b31b121f245fa7c357371b2"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 2999,
+      "sha256": "1d8d9e0409b9519d682a5065f5080e38430ba8ad1620b484a665bc485d06f3a8"
+    },
+    {
+      "path": "COPYPASTE_INSTALL_PROMPT.md",
+      "bytes": 1560,
+      "sha256": "c93982f9b2fb3f7dd6e9817ecc58d67e57e4b72b3480d46fa2a533d5f832e120"
+    },
+    {
+      "path": "DEPENDENCY_LICENSES.json",
+      "bytes": 44260,
+      "sha256": "956d43779e11680a175a0b37d21b7207264518afb15a31bb556d7aaf829610c1"
+    },
+    {
+      "path": "DEPENDENCY_PATCHES.md",
+      "bytes": 1347,
+      "sha256": "68f7cfc844c25bbdcb74f3f30c78fc68a302e3c68a725145376e79e2bbc099c4"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1080,
+      "sha256": "c7886cc23c6f61919b3c8309b93e526034e13df9cd72a17616d1655673e7a9fa"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9228,
+      "sha256": "2b3c43b5fe9bdd11a3d6b5be956d400ba5c685c6f1a0aac76d059e3687f848c9"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 3289,
+      "sha256": "2da5707563b459c8bd7e1e91f02f7bf12ea1a9a8b3923c3cdc397594a684a588"
+    },
+    {
+      "path": "TEST_REPORT.md",
+      "bytes": 11594,
+      "sha256": "236e4c84df3079763666596acfba3559d5631204042d4c1d01bb7ebbbd63bee3"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1704,
+      "sha256": "17ba0852540933cee1740e6827d1b19629ed383e6a87ae8dbfad8cf09b901558"
+    },
+    {
+      "path": "app/api/attachments/[id]/route.ts",
+      "bytes": 1180,
+      "sha256": "5d3ccd3da9ea62423c73b57c6f7fa1310d987bb71c799b5b42e6ef11e2a91d27"
+    },
+    {
+      "path": "app/api/badge/route.ts",
+      "bytes": 278,
+      "sha256": "1cdbcbf4a6f4ca6dbfe5481f592042149487e1c8892339b427e623839485ea3f"
+    },
+    {
+      "path": "app/api/board/route.ts",
+      "bytes": 334,
+      "sha256": "3f2aab8acb8ccb18b6bdf5360683d41fa8b94716e53050adebc5903cc3efc5e3"
+    },
+    {
+      "path": "app/api/drafts/[id]/attachments/route.ts",
+      "bytes": 619,
+      "sha256": "b747f9830bc6e4fa85d062b7203a49a3552c2a63f295ea71d77a26f635856f1c"
+    },
+    {
+      "path": "app/api/push/config/route.ts",
+      "bytes": 379,
+      "sha256": "414f8e669495b042e964c7be09e82918967b3611e1b05a350ad0410ab1989f0e"
+    },
+    {
+      "path": "app/api/push/status/route.ts",
+      "bytes": 188,
+      "sha256": "33ec82ef2aa74526738ad4813f5f30ad20f6e5d0e2e93e0f89dfa6db24475f35"
+    },
+    {
+      "path": "app/api/push/subscriptions/route.ts",
+      "bytes": 333,
+      "sha256": "2672528ec4f70a7792d8c8da00c3ed102d23ec9b9267b17b4b299e2ba291be3a"
+    },
+    {
+      "path": "app/api/setup/identity/route.ts",
+      "bytes": 712,
+      "sha256": "068e9a143ef1dc2fef71636ca47a595d7a6ccb9c76f5ffde837f65a54a6c9db7"
+    },
+    {
+      "path": "app/api/tasks/[id]/attachments/route.ts",
+      "bytes": 614,
+      "sha256": "b06629b741b26b2db2c319794bcb28e4a650003bf1ca5319be5a20f816a233d3"
+    },
+    {
+      "path": "app/api/tasks/[id]/messages/[messageId]/reaction/route.ts",
+      "bytes": 296,
+      "sha256": "d978645f5e59e5de8b11fe2b5d665ff7ebbf9eb02d5164ad10174450c1331920"
+    },
+    {
+      "path": "app/api/tasks/[id]/messages/route.ts",
+      "bytes": 251,
+      "sha256": "5cd5715171286585b9055ab8f01fa9617d78165e4f7c6f77d830a6f3521f9f2d"
+    },
+    {
+      "path": "app/api/tasks/[id]/read/route.ts",
+      "bytes": 224,
+      "sha256": "7178dcf7709a018e5ede8fa4fa0475b82eb81d13aebb38ae8959266d35fa1bf9"
+    },
+    {
+      "path": "app/api/tasks/[id]/route.ts",
+      "bytes": 650,
+      "sha256": "77453f9ff325c220956727de2cde2ee8b11a01e43b44f4669a7ee73a7942032b"
+    },
+    {
+      "path": "app/api/tasks/route.ts",
+      "bytes": 186,
+      "sha256": "e21df827ccc4cfb3f27b03dcbddf4980720e1e5cc0f8900eff9db6e4fd79e7e5"
+    },
+    {
+      "path": "app/chatgpt-auth.ts",
+      "bytes": 2550,
+      "sha256": "4265a2e7c2dcb3a6f4b7026f762bf5b6e4caec76cc13c0a45987ee9a9f2e42cc"
+    },
+    {
+      "path": "app/globals.css",
+      "bytes": 86411,
+      "sha256": "4f92687b6569eef086e54a32aa4dadc525314d791d113eb431e1efad564ae3ae"
+    },
+    {
+      "path": "app/layout.tsx",
+      "bytes": 767,
+      "sha256": "0ede9ae3e2bcc0193b13b09d43c17d50bcc2cb9cb3144591c0ba6b8a41107635"
+    },
+    {
+      "path": "app/mcp/route.ts",
+      "bytes": 10156,
+      "sha256": "ee1208dc16d1fc46ffe6004f6b473ac5a80b9202b69d1a56fe8159d7056d83fd"
+    },
+    {
+      "path": "app/page.tsx",
+      "bytes": 98,
+      "sha256": "e46b9bcbdb11ff02f4690d81c2184914ddaba655c2445436a58e3c02c11165eb"
+    },
+    {
+      "path": "cloudflare-env.d.ts",
+      "bytes": 459,
+      "sha256": "cf756607fccd3ec412b1349936a05f017c233e66b394f5fbb572397917bdb9cf"
+    },
+    {
+      "path": "components/ImagePreview.module.css",
+      "bytes": 2536,
+      "sha256": "95af03ebf8a5bc18139833d38cc8705827688e981bc0a4309f4f494a0d9028c9"
+    },
+    {
+      "path": "components/ImagePreview.tsx",
+      "bytes": 5318,
+      "sha256": "3572b697361a4416ef64bc427e8945b350e9f294cf22517ea62e295e764fe260"
+    },
+    {
+      "path": "components/MessageReactions.tsx",
+      "bytes": 6863,
+      "sha256": "11b4b77cddde80311f7736426baa0d1d22c6fad119c278fa67ee87dea57a45ee"
+    },
+    {
+      "path": "components/NotificationCenter.module.css",
+      "bytes": 1869,
+      "sha256": "e7c5d01140908bf02278d73d8dacd22780c5fb1b21d21a35347e36e46f4a661d"
+    },
+    {
+      "path": "components/NotificationCenter.tsx",
+      "bytes": 3692,
+      "sha256": "d3d77decc0fc7416d09daddc3b05a6e47075c141cc0fbd249841882efb6aeabd"
+    },
+    {
+      "path": "components/PushSettings.tsx",
+      "bytes": 9907,
+      "sha256": "0bfa9b6f75b4a465cbcd0066056a1e0af199aa9a771d556dac1614e61f917499"
+    },
+    {
+      "path": "components/ReplyNotice.tsx",
+      "bytes": 1326,
+      "sha256": "3100f361a967f6ab0b98b3fc49d9a6d66ac6779872834f3db9c44e399e84b3d2"
+    },
+    {
+      "path": "components/TaskActivity.tsx",
+      "bytes": 1027,
+      "sha256": "df83c462e28dd288e8334c080bb47b40ff469b69ba866faf4322bb60a6d5a6ba"
+    },
+    {
+      "path": "components/TaskProgress.tsx",
+      "bytes": 1406,
+      "sha256": "1a9632ba10306fd984f0f3054ef78981addecd7129a7cd4f2c69aacd4de44423"
+    },
+    {
+      "path": "components/TaskRoom.tsx",
+      "bytes": 45037,
+      "sha256": "7d6e161a74c5eed4dbc0f71997e72ceb8a55f22164c5b0979c105b184736b148"
+    },
+    {
+      "path": "components/useImageAttachments.ts",
+      "bytes": 4228,
+      "sha256": "3041b7e616505e3a5e0b4bfb8273f59f34292e0e39037980e94b72341a33d5b8"
+    },
+    {
+      "path": "db/schema.ts",
+      "bytes": 5639,
+      "sha256": "7e620af67b12c89a29b86819f197510b0110377c091689675375be2dc786e329"
+    },
+    {
+      "path": "docs/DEPLOYMENT_CHECKLIST.md",
+      "bytes": 10538,
+      "sha256": "3bd32a52a11a3fbc875574859c84078afbe98d3b9d5aad8f4dd32411038017b4"
+    },
+    {
+      "path": "docs/FIRST_RUN_TEST.md",
+      "bytes": 4953,
+      "sha256": "2cd7cea7f0f06d91449e17bfa196582a2d4ce12bf2f4398d210dfa61a2bb0211"
+    },
+    {
+      "path": "docs/HISTORY_IMPORT.md",
+      "bytes": 4356,
+      "sha256": "92528b3674274def5af9d2095e0961d737088883f1ce992d4f5b4c6589aec085"
+    },
+    {
+      "path": "docs/PERFORMANCE.md",
+      "bytes": 11245,
+      "sha256": "3c67130af968b99033c76bb9a850495c761ffef1660caa1a04ff04684e750c5d"
+    },
+    {
+      "path": "docs/PRIVACY.md",
+      "bytes": 5457,
+      "sha256": "0473809f3056919c9e9f94a3cc698365c5d8bf33e9947036c97cc3f36aa4b7f2"
+    },
+    {
+      "path": "docs/PWA.md",
+      "bytes": 8482,
+      "sha256": "f04a0735466b0dd67881625e44224ec360de67df8ae7f00bcf463a917c6e6572"
+    },
+    {
+      "path": "docs/SECURITY_REVIEW.md",
+      "bytes": 3196,
+      "sha256": "ff5ca58e3ab38f0afb3e1189ff678ecad0d81bb131ef9094343e2c63af239d60"
+    },
+    {
+      "path": "docs/SETUP.md",
+      "bytes": 18467,
+      "sha256": "643381bbf82fcda6bdf64f2900a957856119e1576ad3f05c3ad393f604d0abe0"
+    },
+    {
+      "path": "docs/TROUBLESHOOTING.md",
+      "bytes": 7998,
+      "sha256": "138b30b4b314466f7d02daf94582dcba2f63f8a253699c309aa1ccc6b16d37a2"
+    },
+    {
+      "path": "drizzle/0000_taskrooms.sql",
+      "bytes": 5704,
+      "sha256": "1fe9c4208f54a52d11bdcd8160efec1f1d9e5f6dc80015151f6b0c73046b4f68"
+    },
+    {
+      "path": "drizzle/0001_performance_indexes.sql",
+      "bytes": 200,
+      "sha256": "5a2c9b3d4c66776674979d987cdb5d7ff327e0835fcf251ab269617e6b3cc490"
+    },
+    {
+      "path": "drizzle/meta/0000_snapshot.json",
+      "bytes": 25252,
+      "sha256": "dc8c216fb79a36d9a0cbf397a901e908065100fe61e07f64386976085fb9d965"
+    },
+    {
+      "path": "drizzle/meta/0001_snapshot.json",
+      "bytes": 25711,
+      "sha256": "61992f1d02a3bf70db177bd393babf03e3c15c09bbe1b1e6193c17d5d3fc6fcc"
+    },
+    {
+      "path": "drizzle/meta/_journal.json",
+      "bytes": 346,
+      "sha256": "bf61f9ed29961fd1bce692b525e042d119f43c7fd3e0ac31a0f7e12a11ad4355"
+    },
+    {
+      "path": "drizzle.config.ts",
+      "bytes": 148,
+      "sha256": "af081f7384aaeb0082cf422e29f139d137ca2f6a57c69b2c37b9fb1f8479867b"
+    },
+    {
+      "path": "lib/activity-view.ts",
+      "bytes": 1380,
+      "sha256": "a5db2449b1db44e0c0a88f6d6b9451ff880be4a30827c338b084de8c12e4d713"
+    },
+    {
+      "path": "lib/app-badge.ts",
+      "bytes": 669,
+      "sha256": "fc68d77510c14e1923e508977c655f9979cd4a5cc71cf45b0daa465f6351d8f6"
+    },
+    {
+      "path": "lib/attachment-store.ts",
+      "bytes": 8093,
+      "sha256": "ddb695e92963d6c1866a9e2c000eb36dbfefef3b9773e80f440121898e4b0b61"
+    },
+    {
+      "path": "lib/board-navigation.ts",
+      "bytes": 473,
+      "sha256": "19800308e9c6d492d3a59db532950514dda64d5a7fb3fda3716b4a9f49378454"
+    },
+    {
+      "path": "lib/board-view.ts",
+      "bytes": 1230,
+      "sha256": "0309f2408c86c5793de20431e0d20486327e7ff49439db0cb5d0230b392f2bfb"
+    },
+    {
+      "path": "lib/composer-history.ts",
+      "bytes": 3150,
+      "sha256": "6f846408edaa1d00af92fdc86130e4ef40c8bd4673b2e98a347ba56b6edb64b0"
+    },
+    {
+      "path": "lib/image-drop.ts",
+      "bytes": 404,
+      "sha256": "30cc99a427119a57b5ad4868e0ad694cc4742791471b10bdb3d7c7019cf2c93a"
+    },
+    {
+      "path": "lib/image-paste.ts",
+      "bytes": 488,
+      "sha256": "48f69792ed3a5e4655d279588296a8e04872080da951f18e507ff66a05d3eb90"
+    },
+    {
+      "path": "lib/image-upload.ts",
+      "bytes": 4563,
+      "sha256": "17c479e9518ddab5fb30d7cedd220f3279e57218e1b3727ed691646d2baa27e0"
+    },
+    {
+      "path": "lib/live-poll.ts",
+      "bytes": 2109,
+      "sha256": "bd17f55bdc59b9754df760d15669e53210ee99036616da99365bcd42e1af3a61"
+    },
+    {
+      "path": "lib/long-press.ts",
+      "bytes": 587,
+      "sha256": "67b6f78eabf8fec8f15aa1c6aef16b9db21cb7c2ba4843557e86214a45113dd4"
+    },
+    {
+      "path": "lib/mcp-event-diagnostics.ts",
+      "bytes": 5106,
+      "sha256": "cd5e3d71e67d3531289ab4eb168affebf3b57ed1ae904481f47d07d0ebb53784"
+    },
+    {
+      "path": "lib/mcp-events.ts",
+      "bytes": 24462,
+      "sha256": "370e915071e8af9a20388ca177a003083c5256b77e4c9b98001484581b4ea236"
+    },
+    {
+      "path": "lib/message-links.ts",
+      "bytes": 1427,
+      "sha256": "de2ac2f385ea831f8208faea8da781904c85ca843a0ba19ecb5586ff8a6b21de"
+    },
+    {
+      "path": "lib/prepare-image.ts",
+      "bytes": 2497,
+      "sha256": "2023a78d281e3eed2cebba650b93f4612d5cc05610451abe3133381823d5aa51"
+    },
+    {
+      "path": "lib/push-crypto.ts",
+      "bytes": 3170,
+      "sha256": "e5f83b0f872cc59cf396d856ada3fbb3317e8e081d9dadfedc93e8cec022ad32"
+    },
+    {
+      "path": "lib/push-store.ts",
+      "bytes": 7256,
+      "sha256": "11c669444f1daaba40e1bdfe8c3a9eade470ab1a4c1a0b9e1d5d8fcaca605b62"
+    },
+    {
+      "path": "lib/reaction-state.ts",
+      "bytes": 1172,
+      "sha256": "97d0c8d639d5132c0f112d9d3d69237c59ef8ae60a6fcbf908bbd124b9f7d484"
+    },
+    {
+      "path": "lib/reply-notices.ts",
+      "bytes": 630,
+      "sha256": "fb96e817c05b377fd9886943509f893ec993f2124e89b1813c0f1271632f6dac"
+    },
+    {
+      "path": "lib/task-activity.ts",
+      "bytes": 1743,
+      "sha256": "ab7e52bba6aca4062b3fe00d6301dcbc4cb44b9674b82d8d61173f5def236d7a"
+    },
+    {
+      "path": "lib/task-api.ts",
+      "bytes": 2571,
+      "sha256": "0c86433d29ea6f1785a317107c7a7235df0d7e6d15574b8cfff1b024aed6c6a0"
+    },
+    {
+      "path": "lib/task-contract.ts",
+      "bytes": 5584,
+      "sha256": "31d4cc27dde714c30275134e64a924fab34804554b3ae34213313ad6afbdb4c5"
+    },
+    {
+      "path": "lib/task-progress.ts",
+      "bytes": 2833,
+      "sha256": "e5676b9413c5575e341bac1302357412a5d47a3e83e2135dd8075ed4c5aba735"
+    },
+    {
+      "path": "lib/task-snapshots.ts",
+      "bytes": 1078,
+      "sha256": "41f203930121b4ec582d728238c1a3de6803816b65b1b23a6490b6a320e66f68"
+    },
+    {
+      "path": "lib/task-store.ts",
+      "bytes": 30331,
+      "sha256": "2e06ed9a817daf9e28bf12b943d8154ef38637191583024655d5deb371664460"
+    },
+    {
+      "path": "lib/task-title.ts",
+      "bytes": 480,
+      "sha256": "9f062fa05f0eeda4bd76c0801f8ea408f109dc138ee89b224727f31f578cb003"
+    },
+    {
+      "path": "lib/thread-page-view.ts",
+      "bytes": 2897,
+      "sha256": "8e09fcb2e2b2206a12fd94fa3ce23d63bada1e586a832fde4fa5fca62df7e66f"
+    },
+    {
+      "path": "lib/upload-queue.ts",
+      "bytes": 737,
+      "sha256": "5a0725795fbac77d836c2ea47d4545b08caaac2f18776455e40b3fbcedab91b6"
+    },
+    {
+      "path": "next-env.d.ts",
+      "bytes": 81,
+      "sha256": "879741880b6ab48da99dcc06dcc674d381c9826137b0496bf7bb368f302de9fc"
+    },
+    {
+      "path": "next.config.ts",
+      "bytes": 133,
+      "sha256": "614bce25b089c3f19b1e17a6346c74b858034040154c6621e7d35303004767cc"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 178178,
+      "sha256": "b772e06b2715ec10db499856ac0974d7d122f9c999ecbc5df190389ea7c8f753"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1461,
+      "sha256": "ca320a2c6f7a4828422aa22687b40ac83a880590eeecedbfa10dbd7826df4a4c"
+    },
+    {
+      "path": "postcss.config.mjs",
+      "bytes": 94,
+      "sha256": "dfac7ac2d86d326a0e5adb024e7943c181393ed17a5fcb8f0315b24c7da6ddde"
+    },
+    {
+      "path": "public/icons/taskrooms-180.png",
+      "bytes": 3117,
+      "sha256": "957297e6caccf1b5a453df087af2532533d164d007960dad521368af5a6a2637"
+    },
+    {
+      "path": "public/icons/taskrooms-192.png",
+      "bytes": 3055,
+      "sha256": "3dc4b02381af29bbf12de79efc00b0ceb11b8aa78f26b04a3d206940a93d0e3e"
+    },
+    {
+      "path": "public/icons/taskrooms-512.png",
+      "bytes": 12041,
+      "sha256": "6f279a741276f0f153857300abbd224f3a5bb29d84477d6fa12e3bc20ac8b65d"
+    },
+    {
+      "path": "public/manifest.webmanifest",
+      "bytes": 464,
+      "sha256": "baeac8ebd7fe83bf79b0f03c60fc51ba8c99baf7c64dc4e7ea6c94195a1fe2c5"
+    },
+    {
+      "path": "public/push-sw.js",
+      "bytes": 2950,
+      "sha256": "71e337c41ff041f43b4111f9658e464ed086404afdff487c6a51b1a93b5c5a3b"
+    },
+    {
+      "path": "public/taskrooms.svg",
+      "bytes": 283,
+      "sha256": "91a75c5b0b0f20811d776e891bd1ca1723fabb37cb911a52504f4e18882d4212"
+    },
+    {
+      "path": "scripts/benchmark-performance.mjs",
+      "bytes": 12356,
+      "sha256": "dd35a25ee487ecefe7e24e82b30c6c4c98cabe47f746bbdf28f35acc08edb8d4"
+    },
+    {
+      "path": "scripts/setup-check.mjs",
+      "bytes": 1521,
+      "sha256": "c3a6c9d0b0086bece23bb33d2afb02911128f752b0e38a717baddf5035dfda71"
+    },
+    {
+      "path": "scripts/tool-environment.mjs",
+      "bytes": 791,
+      "sha256": "6da99286e0eb7905595ca851e68983bedf94a0f93814819d61f2b1f3a0342ba2"
+    },
+    {
+      "path": "scripts/validate-release.mjs",
+      "bytes": 2786,
+      "sha256": "69e562d71f51786c809576b2432b51ab070f05214e29ab71cef5161c4fb95e72"
+    },
+    {
+      "path": "scripts/vite/sites-vite-plugin.LICENSE",
+      "bytes": 1063,
+      "sha256": "7de1e115d165f176e68f962acdb809b5ab8d8ae78d3981e0701392b2ac50c713"
+    },
+    {
+      "path": "scripts/vite/sites-vite-plugin.ts",
+      "bytes": 7218,
+      "sha256": "716ee53b338dd72fe542a98a83733b4434e39989f9281bf50f4c75348e2233ed"
+    },
+    {
+      "path": "tests/activity-backend.test.mjs",
+      "bytes": 14906,
+      "sha256": "2fbf70e147d836b949f5c0a7915914afe3d11612082243e6543999c7d6d01e79"
+    },
+    {
+      "path": "tests/activity-view.test.mjs",
+      "bytes": 2619,
+      "sha256": "242b0941afdc1d1d01a8276696ac659b595ecd3ce832537b04e624ef6b652b96"
+    },
+    {
+      "path": "tests/app-badge.test.mjs",
+      "bytes": 6357,
+      "sha256": "6bf617990d2260b80822e3c5c44cbd9bfe40ffa0d3ad66abfc647d6424eb2cf3"
+    },
+    {
+      "path": "tests/attachments.test.mjs",
+      "bytes": 26376,
+      "sha256": "f64026d8d81515c24e6d70185a2e7ef4636afb2b737aed09edb24f9bb89458a1"
+    },
+    {
+      "path": "tests/board-navigation.test.mjs",
+      "bytes": 2348,
+      "sha256": "8d6e3d71e62d244e2f6b632aa698cec27e3faa88c1cdf00e0f3f74fc214ef203"
+    },
+    {
+      "path": "tests/board-view.test.mjs",
+      "bytes": 3660,
+      "sha256": "df755b2b4733b8f1a51f88cdf8e0888c4da587a091ff61f557e4123dd497edd1"
+    },
+    {
+      "path": "tests/chat-layout.test.mjs",
+      "bytes": 1537,
+      "sha256": "98b4b64e1086873a05587d15fc42066fad51e38e57e57cc7a5012da39906815f"
+    },
+    {
+      "path": "tests/chat-preview-integration.test.mjs",
+      "bytes": 1629,
+      "sha256": "f6ebe474e81ef8fd68905abc46a09ad90241e3783badd9af14dd622acc7ac6b0"
+    },
+    {
+      "path": "tests/composer-history.test.mjs",
+      "bytes": 5329,
+      "sha256": "74c04c7ec7b27dac6de672a703f24cb673b046063e152f217d51c5c3ae7601e9"
+    },
+    {
+      "path": "tests/draft-image-history.test.mjs",
+      "bytes": 4890,
+      "sha256": "89bb418bb03c520db1a4b4de0b3369960954499260a52cd052f5e1ff26abb095"
+    },
+    {
+      "path": "tests/image-drop.test.mjs",
+      "bytes": 2844,
+      "sha256": "c303602250b7118d2592f19b8d84ba4ffde4e9e71c06a4cf4c7caa8e6614f917"
+    },
+    {
+      "path": "tests/image-paste.test.mjs",
+      "bytes": 2737,
+      "sha256": "2ed27b862d20749d2e0ee5d10688a1b9989424e82f54288302aa4da13027ac86"
+    },
+    {
+      "path": "tests/image-preview.test.mjs",
+      "bytes": 2947,
+      "sha256": "901c204a8a9d25866fc8a9835daf2d91c0661368066c77d6c70c4d764e340bd2"
+    },
+    {
+      "path": "tests/live-poll.test.mjs",
+      "bytes": 3825,
+      "sha256": "1e23f4ceff5032b74e42a2598b819b33e30d3db3f73ff90a266a19588992fdbd"
+    },
+    {
+      "path": "tests/long-press.test.mjs",
+      "bytes": 3322,
+      "sha256": "3c833d64b551608ef435b06000e3370aeebd5e1aacbb42688d55680dce20054e"
+    },
+    {
+      "path": "tests/mcp-event-diagnostics.test.mjs",
+      "bytes": 4830,
+      "sha256": "2fa3bd60b2cfc7bf55a0c18773337156d1a09a310809e532afb5954025f322fb"
+    },
+    {
+      "path": "tests/mcp-events.test.mjs",
+      "bytes": 21308,
+      "sha256": "1edf7fef1fecc68b07a695290fb0c6dab979167282d1d71a6cdd541857906015"
+    },
+    {
+      "path": "tests/message-links.test.mjs",
+      "bytes": 2538,
+      "sha256": "7fb114ded3775a07486d2f045a986d8a7553dc021d12d5533d60afea517b6e19"
+    },
+    {
+      "path": "tests/message-reactions.test.mjs",
+      "bytes": 3379,
+      "sha256": "9e1b44403581c047a8931d563fe4d70efc45bf706b4ee31b9a0c4adfb2dd7093"
+    },
+    {
+      "path": "tests/new-chat.test.mjs",
+      "bytes": 5215,
+      "sha256": "84bd5f693e665e23a068c832e424dc1d0e4b3fc43248c9551ae96ada8a4a297d"
+    },
+    {
+      "path": "tests/notification-center.test.mjs",
+      "bytes": 1259,
+      "sha256": "8ed613b13112418a4d98375ec9783015d0858e3fe1adcf6338562998d35db721"
+    },
+    {
+      "path": "tests/public-boundary.test.mjs",
+      "bytes": 8903,
+      "sha256": "e0c3dbc542f1e6f19d34956d0c6b066718e4abb4d0a74fbd091a245fd4399cfa"
+    },
+    {
+      "path": "tests/push-client.test.mjs",
+      "bytes": 2750,
+      "sha256": "a867e4720f4b443e24a44bfb7b8bdbc81abb3d8501441e5e0d6f7dc73885c044"
+    },
+    {
+      "path": "tests/push.test.mjs",
+      "bytes": 11574,
+      "sha256": "236abce1e1268a447b86e30c1aad94ebb1e09076de8196ef3decb37de2a875fb"
+    },
+    {
+      "path": "tests/reaction-position.test.mjs",
+      "bytes": 1275,
+      "sha256": "f9eef7d84353388951718b6b7b1cd3e98cfa522f373c27c2aa5abced29761154"
+    },
+    {
+      "path": "tests/reactions.test.mjs",
+      "bytes": 7865,
+      "sha256": "d832ae4e6931462fef79d1b633232a6d038ef7f8611aa36b4ba59911c20c16df"
+    },
+    {
+      "path": "tests/refresh-icons.test.mjs",
+      "bytes": 3736,
+      "sha256": "cb46b62df2e8f7fa763d8b42bd76bda0202076c4e8e3c8f30ff6f995cd675c8a"
+    },
+    {
+      "path": "tests/reply-notices.test.mjs",
+      "bytes": 2087,
+      "sha256": "bdb25deb95aa641bf4747837733ac85dc6315730ba01962b69571a0cf3c08a65"
+    },
+    {
+      "path": "tests/send-performance.test.mjs",
+      "bytes": 5923,
+      "sha256": "adf3352dc3d0b48764d50b643c4fe23275628b00cc075959c7bd47ccf19b60f6"
+    },
+    {
+      "path": "tests/send-ui.test.mjs",
+      "bytes": 863,
+      "sha256": "f49a3e13a52514d94bc7f124464daab574802f92ab1d712d0cd068891062f6b1"
+    },
+    {
+      "path": "tests/short-message.test.mjs",
+      "bytes": 676,
+      "sha256": "91bf0d9a4c4ceeca6b29d059aaef8c6c9c222a84a717a346727ca1981a9b9381"
+    },
+    {
+      "path": "tests/task-progress.test.mjs",
+      "bytes": 6421,
+      "sha256": "b825899724dd997fadae4bec1f7a42dbdefead897c751754d5e40e7c7ed75bf6"
+    },
+    {
+      "path": "tests/task-snapshots.test.mjs",
+      "bytes": 1969,
+      "sha256": "6cd755fbacf22cf0cc5c86c9280d2d0f57e0468f6b9d1e8cf709ae0aff9cc6b2"
+    },
+    {
+      "path": "tests/task-store.test.mjs",
+      "bytes": 18727,
+      "sha256": "6e860aa40c7252de18937a172383ac2577c57ca91015721767e4cbf590fc5d77"
+    },
+    {
+      "path": "tests/task-title.test.mjs",
+      "bytes": 2114,
+      "sha256": "c905ba72c46ddfda997b73af659a2b46df82cfa08100e5a003e5e3efe2292403"
+    },
+    {
+      "path": "tests/thread-pagination.test.mjs",
+      "bytes": 21462,
+      "sha256": "1479c01bc36ab1bb86328f5a2123dd05ce1cbdf95025fe37453e3d5380e216dd"
+    },
+    {
+      "path": "tests/ui-polish.test.mjs",
+      "bytes": 2235,
+      "sha256": "cbbc9428ce215191f27074956e4f18c15176b6045d5e444e9519a5cb66dd2155"
+    },
+    {
+      "path": "tests/upload-queue.test.mjs",
+      "bytes": 3159,
+      "sha256": "55a3f58353ff976067d62d731eeb36d752d3b4b3e3cd9aa56faa5db2bcc2b1a8"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 893,
+      "sha256": "a4c1cc83b63ef9d39641d3babaefffa063dccbbc93338e18017b5013d713163e"
+    },
+    {
+      "path": "vite.config.ts",
+      "bytes": 833,
+      "sha256": "671cc5468bd9f569b72712430da606a0ff6587f576d65d498d1d3374fbede475"
+    },
+    {
+      "path": "worker/index.ts",
+      "bytes": 342,
+      "sha256": "04079e1a0231b639e43bfa1fe7f1c52d8c74988bcf6d8ec20facd3fdd2f9ec8d"
+    }
+  ]
+}
