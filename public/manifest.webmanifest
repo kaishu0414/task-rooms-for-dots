@@ -1,0 +1,23 @@
+{
+  "id": "/",
+  "name": "Task Rooms for Dots",
+  "short_name": "Task Rooms",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f5ee",
+  "theme_color": "#365c50",
+  "icons": [
+    {
+      "src": "/icons/taskrooms-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/taskrooms-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
